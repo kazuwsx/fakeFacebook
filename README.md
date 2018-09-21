@@ -1,6 +1,6 @@
 # Facebook
 
-Facebookの擬似アプリケーションです。
+これはFacebookの模擬アプリケーションです。
 
 ## 動作環境
 - ruby: 2.4.1
