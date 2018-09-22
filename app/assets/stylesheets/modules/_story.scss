@@ -1,9 +1,9 @@
+@import '../config/variables';
 .story {
-
   &__block {
     height: 118px;
     padding: 20px;
-    background-color: white;
+    background-color: $white;
     display: block;
 
   }
@@ -15,7 +15,7 @@
 
   &__title {
     display: flex;
-    color: #616770;
+    color: $grey_font;
     font-size: 13px;
     font-weight: 600;
     line-height: 13px;
@@ -26,7 +26,7 @@
 
   &__config {
     display: flex;
-    color: #365899;
+    color: $blue_font;
     cursor: pointer;
     text-decoration: none;
     justify-content: space-between;
@@ -55,7 +55,6 @@
       vertical-align: middle;
       display: table-cell;
       text-align: center;
-      color: rgb(27, 108, 204);
 
     }
   }
@@ -67,7 +66,7 @@
     position:relative;
 
     &__title {
-      color: #365899;
+      color: $link_color;
       display: inline-block;
       font-weight: 600;
       font-size: 15px;
@@ -79,7 +78,7 @@
     }
 
     &__description {
-      color: #8d949e;
+      color: $grey_font;
       font-weight: normal;
       margin-top: 3px;
       font-size: 12px;

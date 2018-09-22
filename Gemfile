@@ -8,8 +8,8 @@ gem 'rails', '~> 5.2.1'
 # Use mysql as the database for Active Record
 gem 'mysql2', '>= 0.4.4', '< 0.6.0'
 # server
-#gem 'puma', '~> 3.11'
-gem 'unicorn'
+gem 'puma', '~> 3.11'
+# gem 'unicorn'
 
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 2.5'
@@ -35,7 +35,7 @@ gem 'bootstrap'
 gem 'jquery-rails'
 gem 'popper_js'
 gem 'tether-rails'
-gem 'font-awesome-rails'
+gem 'font-awesome-sass'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console

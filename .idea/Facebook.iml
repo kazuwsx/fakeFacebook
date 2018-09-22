@@ -541,22 +541,20 @@
       </library>
     </orderEntry>
     <orderEntry type="module-library">
-      <library name="font-awesome-rails (vbundled(4.7.0.4)) [path][gem]" type="rubylib">
+      <library name="font-awesome-sass (vbundled(5.3.1)) [path][gem]" type="rubylib">
         <properties>
           <option name="version" value="2" />
         </properties>
         <CLASSES>
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/font-awesome-rails-4.7.0.4/app" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/font-awesome-rails-4.7.0.4/lib" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/font-awesome-rails-4.7.0.4/test" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/font-awesome-sass-5.3.1/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/font-awesome-sass-5.3.1/assets" />
         </CLASSES>
         <SOURCES>
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/font-awesome-rails-4.7.0.4/app" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/font-awesome-rails-4.7.0.4/lib" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/font-awesome-rails-4.7.0.4/test" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/font-awesome-sass-5.3.1/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/font-awesome-sass-5.3.1/assets" />
         </SOURCES>
         <excluded>
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/font-awesome-rails-4.7.0.4/test" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/font-awesome-sass-5.3.1/assets" />
         </excluded>
       </library>
     </orderEntry>
@@ -632,30 +630,6 @@
         </SOURCES>
         <excluded>
           <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/jquery-rails-4.3.3/test" />
-        </excluded>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library name="kgio (vbundled(2.11.2)) [path][gem]" type="rubylib">
-        <properties>
-          <option name="version" value="2" />
-        </properties>
-        <CLASSES>
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/kgio-2.11.2/ext" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/kgio-2.11.2/lib" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/kgio-2.11.2/test" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/kgio-2.11.2/archive" />
-        </CLASSES>
-        <SOURCES>
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/kgio-2.11.2/ext" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/kgio-2.11.2/lib" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/kgio-2.11.2/test" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/kgio-2.11.2/archive" />
-        </SOURCES>
-        <excluded>
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/kgio-2.11.2/ext" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/kgio-2.11.2/test" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/kgio-2.11.2/archive" />
         </excluded>
       </library>
     </orderEntry>
@@ -1070,6 +1044,33 @@
       </library>
     </orderEntry>
     <orderEntry type="module-library">
+      <library name="puma (vbundled(3.12.0)) [path][gem]" type="rubylib">
+        <properties>
+          <option name="version" value="2" />
+        </properties>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/puma-3.12.0/bin" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/puma-3.12.0/ext" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/puma-3.12.0/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/puma-3.12.0/docs" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/puma-3.12.0/tools" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/puma-3.12.0/bin" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/puma-3.12.0/ext" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/puma-3.12.0/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/puma-3.12.0/docs" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/puma-3.12.0/tools" />
+        </SOURCES>
+        <excluded>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/puma-3.12.0/bin" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/puma-3.12.0/ext" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/puma-3.12.0/docs" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/puma-3.12.0/tools" />
+        </excluded>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
       <library name="rack (vbundled(2.0.5)) [path][gem]" type="rubylib">
         <properties>
           <option name="version" value="2" />
@@ -1169,33 +1170,6 @@
         </SOURCES>
         <excluded>
           <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/railties-5.2.1/exe" />
-        </excluded>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library name="raindrops (vbundled(0.19.0)) [path][gem]" type="rubylib">
-        <properties>
-          <option name="version" value="2" />
-        </properties>
-        <CLASSES>
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/raindrops-0.19.0/ext" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/raindrops-0.19.0/lib" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/raindrops-0.19.0/test" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/raindrops-0.19.0/archive" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/raindrops-0.19.0/examples" />
-        </CLASSES>
-        <SOURCES>
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/raindrops-0.19.0/ext" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/raindrops-0.19.0/lib" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/raindrops-0.19.0/test" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/raindrops-0.19.0/archive" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/raindrops-0.19.0/examples" />
-        </SOURCES>
-        <excluded>
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/raindrops-0.19.0/ext" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/raindrops-0.19.0/test" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/raindrops-0.19.0/archive" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/raindrops-0.19.0/examples" />
         </excluded>
       </library>
     </orderEntry>
@@ -1326,6 +1300,27 @@
         <SOURCES>
           <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/sass-rails-5.0.7/lib" />
         </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="sassc (vbundled(1.12.1)) [path][gem]" type="rubylib">
+        <properties>
+          <option name="version" value="2" />
+        </properties>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/sassc-1.12.1/ext" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/sassc-1.12.1/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/sassc-1.12.1/test" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/sassc-1.12.1/ext" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/sassc-1.12.1/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/sassc-1.12.1/test" />
+        </SOURCES>
+        <excluded>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/sassc-1.12.1/ext" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/sassc-1.12.1/test" />
+        </excluded>
       </library>
     </orderEntry>
     <orderEntry type="module-library">
@@ -1535,45 +1530,6 @@
         <SOURCES>
           <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/uglifier-4.1.19/lib" />
         </SOURCES>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library name="unicorn (vbundled(5.4.1)) [path][gem]" type="rubylib">
-        <properties>
-          <option name="version" value="2" />
-        </properties>
-        <CLASSES>
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/unicorn-5.4.1/t" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/unicorn-5.4.1/bin" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/unicorn-5.4.1/ext" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/unicorn-5.4.1/lib" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/unicorn-5.4.1/man" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/unicorn-5.4.1/test" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/unicorn-5.4.1/archive" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/unicorn-5.4.1/examples" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/unicorn-5.4.1/Documentation" />
-        </CLASSES>
-        <SOURCES>
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/unicorn-5.4.1/t" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/unicorn-5.4.1/bin" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/unicorn-5.4.1/ext" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/unicorn-5.4.1/lib" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/unicorn-5.4.1/man" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/unicorn-5.4.1/test" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/unicorn-5.4.1/archive" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/unicorn-5.4.1/examples" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/unicorn-5.4.1/Documentation" />
-        </SOURCES>
-        <excluded>
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/unicorn-5.4.1/t" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/unicorn-5.4.1/bin" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/unicorn-5.4.1/ext" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/unicorn-5.4.1/man" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/unicorn-5.4.1/test" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/unicorn-5.4.1/archive" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/unicorn-5.4.1/examples" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/unicorn-5.4.1/Documentation" />
-        </excluded>
       </library>
     </orderEntry>
     <orderEntry type="module-library">

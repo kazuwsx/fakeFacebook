@@ -1,8 +1,10 @@
-@import 'home/reset';
-@import 'home/wrapper';
-@import "home/header";
-@import "home/left-sidebar";
-@import "home/chat-board";
-@import "home/story";
-@import "home/advertisement";
-@import "home/language";
+@import 'reset';
+
+@import "modules/advertisement";
+@import 'modules/wrapper';
+@import "modules/header";
+@import "modules/left-sidebar";
+@import "modules/chat-board";
+@import "modules/story";
+
+
