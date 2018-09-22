@@ -1,0 +1,232 @@
+body{
+  background-color: #e9ebee;
+}
+
+.header {
+  background-color: #4267b2;
+  height: 42px;
+  border-bottom: 1px solid #29487d;
+
+  &__contents {
+    display: flex;
+
+
+  }
+}
+
+.Facebook__icon {
+  margin: 6px;
+  margin-left: 250px;
+  & i {
+    color: #fff;
+
+  }
+}
+
+.searchbar {
+  display: inline-block;
+  width: 450px;
+  height: 26px;
+  margin-top: 7px;
+  margin-left: 5px;
+  background-color: #FFF;
+  border-radius: 2px;
+
+  &__form {
+    height: 20px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    margin-left: 15px;
+    & button {
+      border: none;
+      background-color: #f5f6f7;
+      float: right;
+      margin: -3px 0;
+      padding: 3px 0;
+      height: 26px;
+      width: 40px;
+      border-radius: 2px;
+
+      & i {
+        color: #3c3e40;
+      }
+    }
+  }
+}
+
+.menus {
+  width: 330px;
+  height: 29px;
+  margin-left: 140px;
+  display: table;
+  margin-top: 8px;
+  box-sizing: border-box;
+
+  &__profile {
+    width: 100px;
+    display: table-cell;
+
+    & img {
+      height: 24px;
+      width: 24px;
+      border-radius: 11px;
+    }
+
+    & span {
+      margin-top: 6px;
+      font-size: 14px;
+      margin-left: 6px;
+    }
+    & a {
+      text-decoration: none;
+      color: #FFF;
+      display: flex;
+    }
+  }
+
+  &__home {
+    display: table-cell;
+    width: 50px;
+
+    & a {
+      text-decoration: none;
+      color: #FFF;
+      display: flex;
+      font-size: 14px;
+      margin-bottom: 8px;
+      position: absolute;
+      margin-top: 6px;
+
+    }
+  }
+
+  &__friendSearch {
+    display: table-cell;
+
+    & a {
+      text-decoration: none;
+      color: #FFF;
+      display: flex;
+      font-size: 14px;
+      margin-bottom: 8px;
+      position: absolute;
+      margin-top: 6px;
+
+    }
+  }
+  &__icons {
+    display: table-cell;
+
+    &__friendRequest {
+      margin-left: 90px;
+
+      &  i {
+        text-decoration: none;
+        color: #FFF;
+        display: flex;
+        font-size: 1.3em;
+        margin-bottom: 8px;
+        position: absolute;
+        margin-top: 6px;
+        color: black;
+      }
+    }
+
+    &__messenger {
+      margin-left: 120px;
+
+      & i {
+        text-decoration: none;
+        color: #FFF;
+        display: flex;
+        font-size: 1.3em;
+        margin-bottom: 8px;
+        position: absolute;
+        margin-top: 6px;
+        color: black;
+      }
+    }
+
+    &__notification {
+      margin-left: 150px;
+
+      & i {
+        text-decoration: none;
+        color: #FFF;
+        display: flex;
+        font-size: 1.3em;
+        margin-bottom: 8px;
+        position: absolute;
+        margin-top: 6px;
+        color: black;
+      }
+
+    }
+  }
+}
+
+body{
+  background-color: #e9ebee;
+}
+
+.header {
+  background-color: #4267b2;
+  height: 42px;
+  border-bottom: 1px solid #29487d;
+
+  &__contents {
+    display: flex;
+
+
+  }
+}
+
+.Facebook__icon {
+  margin: 6px;
+  margin-left: 250px;
+  & i {
+    color: #fff;
+
+  }
+}
+
+.searchbar {
+  display: inline-block;
+  width: 450px;
+  height: 26px;
+  margin-top: 7px;
+  margin-left: 5px;
+  background-color: #FFF;
+  border-radius: 2px;
+
+  &__form {
+    height: 20px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    margin-left: 15px;
+    & button {
+      border: none;
+      background-color: #f5f6f7;
+      float: right;
+      margin: -3px 0;
+      padding: 3px 0;
+      height: 26px;
+      width: 40px;
+      border-radius: 2px;
+
+      & i {
+        color: #3c3e40;
+      }
+    }
+  }
+}
+
+.help-icon {
+  margin-left: 10px;
+  margin-top: 15px;
+}
+
+.otherwise {
+  margin-top: 15px;
+  margin-left: 10px;
+}
