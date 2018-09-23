@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4af43af5-dd78-402e-8c9a-9a3d4e6b128c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/application.css.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.css.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/mixin/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/mixin/_header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/mixin/_story.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/mixin/_story.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/modules/_story.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/modules/_story.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/modules/_advertisement.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/modules/_advertisement.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/modules/_chat-board.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/modules/_chat-board.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,14 +28,14 @@
           <entry key="Rakefile" value="1" />
           <entry key="erb" value="1" />
           <entry key="rb" value="2" />
-          <entry key="scss" value="19" />
+          <entry key="scss" value="22" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="RHTML" value="1" />
           <entry key="Ruby" value="5" />
-          <entry key="SCSS" value="19" />
+          <entry key="SCSS" value="22" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -47,7 +44,7 @@
           <entry key="css" value="5" />
           <entry key="gitignore" value="17" />
           <entry key="rb" value="28" />
-          <entry key="scss" value="1043" />
+          <entry key="scss" value="1044" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -55,7 +52,7 @@
           <entry key="CSS" value="5" />
           <entry key="PLAIN_TEXT" value="17" />
           <entry key="Ruby" value="128" />
-          <entry key="SCSS" value="1043" />
+          <entry key="SCSS" value="1044" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.actions.runAnything" />
@@ -74,7 +71,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/style.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state>
@@ -84,10 +81,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/modules/_header.scss">
+        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/mixin/_header.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="448">
-              <caret line="144" lean-forward="true" selection-start-line="144" selection-end-line="144" />
+            <state relative-caret-position="285">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
             </state>
           </provider>
         </entry>
@@ -104,17 +101,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/modules/_advertisement.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="448">
-              <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
+            <state relative-caret-position="418">
+              <caret line="39" column="3" selection-start-line="39" selection-start-column="3" selection-end-line="39" selection-end-column="3" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/modules/_chat-board.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="448">
-              <caret line="98" lean-forward="true" selection-start-line="98" selection-end-line="98" />
+            <state relative-caret-position="176">
+              <caret line="49" column="2" selection-start-line="49" selection-start-column="2" selection-end-line="49" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -173,10 +170,8 @@
         <option value="$PROJECT_DIR$/app/assets/stylesheets/application.css" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/_variables.scss" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/home/_advertisement.scss" />
-        <option value="$PROJECT_DIR$/app/assets/stylesheets/modules/_advertisement.scss" />
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/mixin/_chat-board.scss" />
-        <option value="$PROJECT_DIR$/app/assets/stylesheets/modules/_chat-board.scss" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/mixin/_icons.scss" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/modules/_header.scss" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/config/_variables.scss" />
@@ -186,6 +181,8 @@
         <option value="$PROJECT_DIR$/app/assets/stylesheets/modules/_story.scss" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/application.css.scss" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/style.scss" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/modules/_advertisement.scss" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/modules/_chat-board.scss" />
       </list>
     </option>
   </component>
@@ -334,12 +331,12 @@
       <updated>1537415799587</updated>
       <workItem from="1537415800803" duration="634000" />
       <workItem from="1537660292182" duration="111000" />
-      <workItem from="1537661868643" duration="2979000" />
+      <workItem from="1537661868643" duration="3100000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10442000" />
+    <option name="totallyTimeSpent" value="10563000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -468,13 +465,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/mixin/_header.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/mixin/_story.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -486,20 +476,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/modules/_advertisement.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/modules/_chat-board.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="98" lean-forward="true" selection-start-line="98" selection-end-line="98" />
         </state>
       </provider>
     </entry>
@@ -552,6 +528,27 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="16" selection-start-column="16" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/mixin/_header.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/modules/_advertisement.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="39" column="3" selection-start-line="39" selection-start-column="3" selection-end-line="39" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/modules/_chat-board.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="49" column="2" selection-start-line="49" selection-start-column="2" selection-end-line="49" selection-end-column="2" />
         </state>
       </provider>
     </entry>

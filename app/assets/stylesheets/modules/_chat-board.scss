@@ -1,5 +1,6 @@
 @import '../config/variables';
 @import "../mixin/_chat-board";
+
 .chat-board {
   width: 500px;
   background-color: $white;
@@ -47,6 +48,7 @@
       }
     }
   }
+
   &__footer {
     height: 30px;
     bottom: 0;
