@@ -1,0 +1,144 @@
+@import '../config/variables';
+@import '../mixin/header';
+
+body{
+  background-color: #e9ebee;
+}
+
+.header {
+  background-color: $header_color;
+  height: 42px;
+  border-bottom: 1px solid $header_bottom_color;
+
+  &__contents {
+    display: flex;
+
+  }
+}
+
+.Facebook__icon {
+  margin: 6px;
+  margin-left: 250px;
+  color: $white;
+
+}
+
+.searchbar {
+  display: inline-block;
+  width: 450px;
+  height: 26px;
+  margin-top: 7px;
+  margin-left: 5px;
+  background-color: $white;
+  border-radius: 2px;
+
+  &__form {
+    height: 20px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    margin-left: 15px;
+
+    & button {
+      border: none;
+      background-color: $pale_gray;
+      float: right;
+      margin: -3px 0;
+      padding: 3px 0;
+      height: 26px;
+      width: 40px;
+      border-radius: 2px;
+
+      & i {
+        color: #3c3e40;
+      }
+    }
+  }
+}
+
+.menus {
+  width: 330px;
+  height: 29px;
+  margin-left: 140px;
+  display: table;
+  margin-top: 8px;
+  box-sizing: border-box;
+  color: white;
+
+  &__profile {
+    width: 100px;
+    display: table-cell;
+
+    & img {
+      height: 24px;
+      width: 24px;
+      border-radius: 11px;
+    }
+
+    & span {
+      margin-top: 6px;
+      font-size: 14px;
+      margin-left: 6px;
+    }
+    & a {
+      text-decoration: none;
+      color: $white;
+      display: flex;
+    }
+  }
+
+  &__home {
+    display: table-cell;
+    width: 50px;
+
+    & a {
+      @include header_menus;
+
+    }
+  }
+
+  &__friendSearch {
+    display: table-cell;
+
+    & a {
+      @include header_menus;
+    }
+  }
+  &__icons {
+    display: table-cell;
+
+    &__friendRequest {
+      margin-left: 90px;
+
+      &  i {
+        @include icons();
+      }
+    }
+
+    &__messenger {
+      margin-left: 120px;
+
+      & i {
+        @include icons();
+      }
+    }
+
+    &__notification {
+      margin-left: 150px;
+
+      & i {
+        @include icons();
+      }
+
+    }
+  }
+}
+
+.help-icon {
+  margin-left: 10px;
+  margin-top: 15px;
+}
+
+.otherwise {
+  margin-top: 15px;
+  margin-left: 10px;
+}

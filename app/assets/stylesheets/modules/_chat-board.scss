@@ -1,0 +1,100 @@
+@import '../config/variables';
+@import "../mixin/_chat-board";
+
+.chat-board {
+  width: 500px;
+  background-color: $white;
+  height: 155px;
+  border: 1px solid $frame_color;
+  position: relative;
+
+  &__header {
+    height: 16px;
+    background-color: $pale_gray;
+    border-bottom: 1px solid $frame_color;
+    padding: 8px 0;
+
+    &__menu{
+
+      & p {
+        color: $grey_font;
+        font-weight: bold;
+        font-size: 14px;
+        display: inline-block;
+        padding: 4px;
+      }
+    }
+
+    &__post {
+      height: 70px;
+      display: inline-block;
+      border-bottom: 1px solid $frame_color;
+      width: 460px;
+      margin-left: 20px;
+
+      & img {
+        border-radius: 30px;
+        padding: 10px;
+        display: inline-block;
+        float: left;
+      }
+
+      & p {
+        display: inline-block;
+        line-height: 70px;
+        float: left;
+        font-size: 15px;
+        color: $pale_gray_font;
+      }
+    }
+  }
+
+  &__footer {
+    height: 30px;
+    bottom: 0;
+    position: absolute;
+    margin: 0 12px;
+    padding: 8px 0 8px 10px;
+    font-size: 14px;
+    line-height: 30px;
+    font-weight: 600;
+
+    &__media {
+      @include chat-board_footer_menus();
+
+      & img {
+        display: inline-block;
+      }
+
+      & p {
+        display: inline-block;
+        color: $grey_font;
+        font-weight: 600;
+      }
+    }
+
+    &__feelingStamp {
+      @include chat-board_footer_menus();
+      padding-left: 10px;
+
+      & img {
+        display: inline-block;
+      }
+
+      & p {
+        display: inline-block;
+        color: $grey_font;
+        font-weight: 600;
+      }
+    }
+
+    &__ather {
+      @include chat-board_footer_menus();
+      padding-left: 10px;
+      width: 30px;
+      color: $grey_font;
+      font-weight: 600;
+
+    }
+  }
+}

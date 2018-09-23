@@ -1,0 +1,143 @@
+<div class="header">
+  <div class="header__contents">
+    <div class="Facebook__icon">
+      <%= icon('fab', 'facebook-square fa-2x')%>
+    </div>
+    <div class="searchbar">
+      <form class="searchbar__form" action="index.html" method="post">
+        <button type="submit" name="button">
+          <%= icon('fa', 'search log fa-2x')%>
+        </button>
+      </form>
+    </div>
+    <div class="menus">
+      <div class="menus__profile">
+        <a href="#">
+          <img src="https://scontent-nrt1-1.xx.fbcdn.net/v/t1.0-1/c14.0.48.48/p48x48/10354686_10150004552801856_220367501106153455_n.jpg?_nc_cat=1&oh=9f53f868d0f7f377579069ac5508883e&oe=5C24D059" alt="">
+          <span>小倉一輝</span>
+        </a>
+      </div>
+      <div class="menus__home">
+        <a href="#">ホーム</a>
+      </div>
+      <div class="menus__friendSearch">
+        <a href="#">友達を検索</a>
+      </div>
+      <div class="menus__icons">
+        <div class="menus__icons__friendRequest">
+          <%= icon('fas', 'user-friends fa-2x')%>
+        </div>
+        <div class="menus__icons__messenger">
+          <%= icon('fab', 'facebook-messenger fa-2x')%>
+        </div>
+        <div class="menus__icons__notification">
+          <%= icon('fas', 'globe-americas fa-2x')%>
+        </div>
+      </div>
+    </div>
+    <div class="help-icon">
+      <%= icon('fas', 'question-circle fa-lg')%>
+    </div>
+    <div class="otherwise">
+      <%= icon('fas', 'angle-down fa-lg')%>
+    </div>
+  </div>
+</div>
+<div class="wrapper">
+  <div class="left-sidebar">
+    <div class="left-sidebar__user-page">
+      <img src="https://scontent-nrt1-1.xx.fbcdn.net/v/t1.0-1/c14.0.48.48/p48x48/10354686_10150004552801856_220367501106153455_n.jpg?_nc_cat=1&oh=9f53f868d0f7f377579069ac5508883e&oe=5C24D059" alt="">
+      <p>小倉一輝</p>
+    </div>
+    <div class="left-sidebar__news">
+      <%= icon('far', 'newspaper') %>
+      <p>ニュースフィード</p>
+    </div>
+    <div class="left-sidebar__messenger">
+      <%= icon('fab', 'facebook-messenger fa-lg')%>
+      <p>messenger</p>
+    </div>
+    <div class="left-sidebar__nav">
+      <div class="left-sidebar__nav__header">
+        <p>発見</p>
+      </div>
+      <div class="left-sidebar__nav__contents">
+        <%= icon('far', 'flag fa-lg')%>
+        <p class="sidebar__nav__p">Facebookページ</p>
+      </div>
+      <div class="left-sidebar__nav__contents">
+        <%= icon('fas', 'users fa-lg')%>
+        <p class="sidebar__nav__p">グループ</p>
+      </div>
+      <div class="left-sidebar__nav__contents">
+        <%= icon('fas', 'calendar-alt fa-lg')%>
+        <p class="sidebar__nav__p">イベント</p>
+      </div>
+      <div class="left-sidebar__nav__contents">
+        <%= icon('fas', 'video fa-lg')%>
+        <p class="sidebar__nav__p">ライブ動画</p>
+      </div>
+      <div class="left-sidebar__nav__contents">
+        <%= icon('fas', 'dollar-sign fa-lg')%>
+        <p class="sidebar__nav__p">募金キャンペーン</p>
+      </div>
+    </div>
+  </div>
+  <div class="chat-board">
+    <div class="chat-board__header">
+      <div class="chat-board__header__menu">
+        <p>投稿する</p><span>|</span>
+        <p>写真・動画アルバム</p><span>|</span>
+        <p>ライブ動画</p>
+        <span></span>
+      </div>
+      <div class="chat-board__header__post">
+        <img src="https://scontent-nrt1-1.xx.fbcdn.net/v/t1.0-1/c14.0.48.48/p48x48/10354686_10150004552801856_220367501106153455_n.jpg?_nc_cat=1&oh=9f53f868d0f7f377579069ac5508883e&oe=5C24D059" alt="">
+        <p>今なにしてる？</p>
+      </div>
+    </div>
+    <div class="chat-board__footer">
+      <div class="chat-board__footer__media">
+        <%= icon('far', 'image fa-lg')%>
+        <p>写真・動画</p>
+      </div>
+      <div class="chat-board__footer__feelingStamp">
+        <%= icon('far', 'laugh fa-lg')%>
+        <p>気分・アクティビティ</p>
+      </div>
+      <div class="chat-board__footer__ather">
+        <p>•••</p>
+      </div>
+    </div>
+  </div>
+  <div class="right-side-wrapper">
+    <div class="story">
+      <div class="story__block">
+        <div class="story__header">
+          <p class="story__title">ストーリー</p>
+          <p class="story__config">アーカイブ・設定</p>
+        </div>
+        <div class="story__contents">
+          <div class="story__button">
+            <%= icon('fas', 'plus') %>
+          </div>
+          <div class="story__text">
+            <p class="story__text__title">ストーリーに追加</p>
+            <p class="story__text__description">動画や写真をシェア、または何か書く</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="advertisement">
+      <div class="advertisement__contents">
+        <p class="advertisement__subject">広告</p>
+        <img class="advertisement__img" src="http://blog.yuhiisk.com/wp-content/uploads/2017/08/tech-camp.png" alt="">
+        <p class="advertisement__heading">人生を変えるテクノロジースクール</p>
+        <a class="advertisement__url" href="https://tech-camp.in/">https://tech-camp.in/</a>
+        <p class="advertisement__description">TECH::CAMP(テックキャンプ)は、テクノロジーが主役の時代で活躍できる人材へと変えるテクノロジースクールです。</p>
+      </div>
+    </div>
+    <div class="language">
+    </div>
+  </div>
+</div>
