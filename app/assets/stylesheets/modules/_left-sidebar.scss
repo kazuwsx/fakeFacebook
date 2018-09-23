@@ -1,3 +1,5 @@
+@import "../config/variables";
+
 .left-sidebar {
   position: relative;
   width: 180px;
@@ -54,7 +56,7 @@
       padding: 5px 0;
 
       &  p {
-        color: #616770;
+        color: $left-sidebar_color;
         font-size: 13px;
         font-weight: bold;
 

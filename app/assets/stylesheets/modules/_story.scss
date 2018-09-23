@@ -1,5 +1,8 @@
 @import '../config/variables';
+@import "../mixin/story";
+
 .story {
+
   &__block {
     height: 118px;
     padding: 20px;
@@ -7,6 +10,7 @@
     display: block;
 
   }
+
   &__header {
     height: 20px;
     display: flex;
@@ -22,6 +26,7 @@
     width: 70px;
     justify-content: space-between;
     width: 118px;
+
   }
 
   &__config {
@@ -40,6 +45,8 @@
     display: flex;
     width: 280px;
     margin-top: 20px;
+    font-family: inherit;
+    font-weight: 600;
 
   }
 
@@ -66,35 +73,24 @@
     position:relative;
 
     &__title {
+      @include story_text();
       color: $link_color;
       display: inline-block;
       font-weight: 600;
       font-size: 15px;
-      position:absolute;
       top: 40%;
-      -ms-transform: translateY(-50%);
-      -webkit-transform : translateY(-50%);
-      transform : translateY(-50%);
+
     }
 
     &__description {
+      @include story_text();
       color: $grey_font;
       font-weight: normal;
-      margin-top: 3px;
+      margin-top: 8px;
       font-size: 12px;
-      position:absolute;
       top: 60%;
-      -ms-transform: translateY(-50%);
-      -webkit-transform : translateY(-50%);
-      transform : translateY(-50%);
+
     }
-
   }
-
 }
 
-
-
-.footer {
-  width: 500px;
-}

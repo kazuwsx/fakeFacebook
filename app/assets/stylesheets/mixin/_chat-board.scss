@@ -1,0 +1,6 @@
+@mixin chat-board_footer_menus() {
+  display: inline-block;
+  background-color: $pale_gray;
+  border-radius: 18px;
+  cursor: pointer;
+}
