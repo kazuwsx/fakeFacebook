@@ -209,27 +209,6 @@
       </library>
     </orderEntry>
     <orderEntry type="module-library">
-      <library name="bcrypt (vbundled(3.1.12)) [path][gem]" type="rubylib">
-        <properties>
-          <option name="version" value="2" />
-        </properties>
-        <CLASSES>
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/bcrypt-3.1.12/ext" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/bcrypt-3.1.12/lib" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/bcrypt-3.1.12/spec" />
-        </CLASSES>
-        <SOURCES>
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/bcrypt-3.1.12/ext" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/bcrypt-3.1.12/lib" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/bcrypt-3.1.12/spec" />
-        </SOURCES>
-        <excluded>
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/bcrypt-3.1.12/ext" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/bcrypt-3.1.12/spec" />
-        </excluded>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
       <library name="better_errors (vbundled(2.5.0)) [path][gem]" type="rubylib">
         <properties>
           <option name="version" value="2" />
@@ -506,58 +485,6 @@
         <excluded>
           <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/debug_inspector-0.0.3/ext" />
           <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/debug_inspector-0.0.3/test" />
-        </excluded>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library name="devise (vbundled(4.5.0)) [path][gem]" type="rubylib">
-        <properties>
-          <option name="version" value="2" />
-        </properties>
-        <CLASSES>
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/devise-4.5.0/app" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/devise-4.5.0/bin" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/devise-4.5.0/lib" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/devise-4.5.0/test" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/devise-4.5.0/config" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/devise-4.5.0/guides" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/devise-4.5.0/gemfiles" />
-        </CLASSES>
-        <SOURCES>
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/devise-4.5.0/app" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/devise-4.5.0/bin" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/devise-4.5.0/lib" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/devise-4.5.0/test" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/devise-4.5.0/config" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/devise-4.5.0/guides" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/devise-4.5.0/gemfiles" />
-        </SOURCES>
-        <excluded>
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/devise-4.5.0/bin" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/devise-4.5.0/test" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/devise-4.5.0/config" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/devise-4.5.0/guides" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/devise-4.5.0/gemfiles" />
-        </excluded>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library name="devise-bootstrap-views (vbundled(1.1.0)) [path][gem]" type="rubylib">
-        <properties>
-          <option name="version" value="2" />
-        </properties>
-        <CLASSES>
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/devise-bootstrap-views-1.1.0/app" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/devise-bootstrap-views-1.1.0/lib" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/devise-bootstrap-views-1.1.0/locales" />
-        </CLASSES>
-        <SOURCES>
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/devise-bootstrap-views-1.1.0/app" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/devise-bootstrap-views-1.1.0/lib" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/devise-bootstrap-views-1.1.0/locales" />
-        </SOURCES>
-        <excluded>
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/devise-bootstrap-views-1.1.0/locales" />
         </excluded>
       </library>
     </orderEntry>
@@ -1047,27 +974,6 @@
       </library>
     </orderEntry>
     <orderEntry type="module-library">
-      <library name="orm_adapter (vbundled(0.5.0)) [path][gem]" type="rubylib">
-        <properties>
-          <option name="version" value="2" />
-        </properties>
-        <CLASSES>
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/orm_adapter-0.5.0/lib" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/orm_adapter-0.5.0/spec" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/orm_adapter-0.5.0/gemfiles" />
-        </CLASSES>
-        <SOURCES>
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/orm_adapter-0.5.0/lib" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/orm_adapter-0.5.0/spec" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/orm_adapter-0.5.0/gemfiles" />
-        </SOURCES>
-        <excluded>
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/orm_adapter-0.5.0/spec" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/orm_adapter-0.5.0/gemfiles" />
-        </excluded>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
       <library name="popper_js (vbundled(1.14.3)) [path][gem]" type="rubylib">
         <properties>
           <option name="version" value="2" />
@@ -1328,19 +1234,6 @@
         <excluded>
           <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/rb-inotify-0.9.10/spec" />
         </excluded>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library name="responders (vbundled(2.4.0)) [path][gem]" type="rubylib">
-        <properties>
-          <option name="version" value="2" />
-        </properties>
-        <CLASSES>
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/responders-2.4.0/lib" />
-        </CLASSES>
-        <SOURCES>
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/responders-2.4.0/lib" />
-        </SOURCES>
       </library>
     </orderEntry>
     <orderEntry type="module-library">
@@ -1637,24 +1530,6 @@
         <SOURCES>
           <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/uglifier-4.1.19/lib" />
         </SOURCES>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library name="warden (vbundled(1.2.7)) [path][gem]" type="rubylib">
-        <properties>
-          <option name="version" value="2" />
-        </properties>
-        <CLASSES>
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/warden-1.2.7/lib" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/warden-1.2.7/spec" />
-        </CLASSES>
-        <SOURCES>
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/warden-1.2.7/lib" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/warden-1.2.7/spec" />
-        </SOURCES>
-        <excluded>
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/warden-1.2.7/spec" />
-        </excluded>
       </library>
     </orderEntry>
     <orderEntry type="module-library">
